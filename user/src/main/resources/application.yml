@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: user-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/userdb
+      database: userdb
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/userdb?currentSchema=public&stringtype=unspecified&options=-c%20TimeZone=Asia/Kolkata
+#    username: root
+#    password: root
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        jdbc:
+#          time_zone: Asia/Kolkata
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+server:
+  port: 8082
+

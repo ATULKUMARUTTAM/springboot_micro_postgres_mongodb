@@ -3,8 +3,8 @@ spring:
     name: user-service
   data:
     mongodb:
-#      uri: mongodb://localhost:27017/userdb   u8a3Ua5EqWBzl2iL
-      uri: mongodb+srv://atuluttam_db_user:jKOH6ixF3D9fAA5U@user-db.lgobyp8.mongodb.net/?retryWrites=true&w=majority&appName=user-db
+#      uri: mongodb://localhost:27017/userdb   u8a3Ua5E
+      uri: mongodb+srv://mongo_db_user_name:mongodb_atlas_password@user-db.lgobyp8.mongodb.net/?retryWrites=true&w=majority&appName=user-db
       database: userdb
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/userdb?currentSchema=public&stringtype=unspecified&options=-c%20TimeZone=Asia/Kolkata
